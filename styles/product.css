@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h2{
+	font-size:14pt;
+	font-weight:bold;
+	margin:0 0 0 10px;
+	margin-right:4px;
+	padding:0;
+	float:none;
+	color:#FF8F17;
+}
+
+section{
+	min-height:650px;
+	height:auto;
+	width:1000px;
+}
+
+ article{
+	height:360px;
+	width:316px;
+	margin:0 3px 5px 0;
+	padding:5px 5px 0 5px;
+	border-right: none;
+	border: 1px solid #bcbcbc;
+	float:left;
+}
+
+img{
+	float:left;
+}
+
+ article:first-child{
+ 	margin-left:3px;
+ }
+
+.title{
+	height:20px;
+	width:auto;
+	background:#db7030;
+}
+
+.vooraad{
+	float:left;
+}
+
+.text{
+	height:150px;
+}
+
+.order{
+	float:right;
+	bottom:0 auto;
+}
+
+article > img{
+	height:250px;
+	width:300px;
+	margin:0 0 0 8px;
+}
+
+.items{
+	height: auto;
+	min-height: 220px;
+	width:1000px;
+}
+
+.uniek{
+	height:400px;
+	width:800px;
+}
+.price{
+	font-size:14pt;
+	display:block;
+	color:#FF8F17;
+}
